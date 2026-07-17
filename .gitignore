@@ -1,0 +1,10 @@
+.nitrostudio/
+node_modules/
+.next/
+.turbo/
+coverage/
+dist/
+src/widgets/.next/
+src/widgets/out/
+src/widgets/node_modules/
+
