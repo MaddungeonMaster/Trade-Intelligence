@@ -1,29 +1,33 @@
-# NitroStack Pizzaz Template
+# Trade Intelligence MCP
 
-Template focused on rich, interactive widget experiences (map/list/detail flows)
-using the NitroStack widget SDK patterns.
+Trade Intelligence MCP is a NitroStack-based server for trade finance officers who need to review trade documents, detect discrepancies, check compliance rules, screen for sanctions and exposure, and support fraud investigations.
 
-## What This Template Includes
+## What the project includes
 
-- Widget-heavy module and UI structure
-- Interactive examples for advanced frontends
-- Optional map provider integration pattern
-- Studio-friendly development workflow
+- Document parsing and normalization for trade documents
+- Cross-document discrepancy analysis
+- Letter of credit and shipment compliance checks
+- Sanctions and country-risk screening
+- Duplicate financing and TBML detection heuristics
+- Decision-support reporting for risk and compliance review
 
-## Quick Start
+## Project structure
+
+- src/index.ts: application bootstrap entrypoint
+- src/app.module.ts: root NitroStack application module
+- src/modules/trade-finance/: tools and orchestration for trade-finance workflows
+- src/resources/: compliance, sanctions, and Incoterms reference data
+- src/schemas/: shared trade-document schemas
+
+## Run locally
 
 ```bash
-npx @nitrostack/cli init my-pizzaz-app --template typescript-pizzaz
-cd my-pizzaz-app
-npm run dev
+npm install
+npm run build
+npm start
 ```
 
-## Optional Configuration
-
-If this project uses a map provider, configure API tokens in widget `.env` files
-as documented in the template source.
-
-## Common Commands
+## Common commands
 
 ```bash
 npm run dev
@@ -32,23 +36,12 @@ npm start
 npm run widget <command>
 ```
 
-## NitroStudio
+## Widget support
 
-NitroStudio is the fastest way to test and debug interactive widget output.
-
-- Download: <https://nitrostack.ai/studio>
-- Studio: <https://nitrostack.ai/studio>
+The workspace also includes a small widget scaffold under src/widgets for optional UI integrations. The original pizza-template sample files have been removed in favor of the trade-finance-focused project layout.
 
 ## Links
 
-- Docs: <https://docs.nitrostack.ai>
-- Widgets docs: <https://docs.nitrostack.ai/sdk/typescript/ui/widgets>
-- Main repository: <https://github.com/nitrocloudofficial/nitrostack>
-
-## Community
-
-- Discord: <https://discord.gg/uVWey6UhuD>
-- X: <https://x.com/nitrostackai>
-- YouTube: <https://www.youtube.com/@nitrostackai>
-- LinkedIn: <https://linkedin.com/company/nitrostack-ai/>
-- GitHub: <https://github.com/nitrostackai>
+- NitroStack docs: <https://docs.nitrostack.ai>
+- NitroStack Studio: <https://nitrostack.ai/studio>
+- NitroStack GitHub: <https://github.com/nitrocloudofficial/nitrostack>

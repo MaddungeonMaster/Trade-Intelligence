@@ -1,9 +1,9 @@
 {
-  "name": "Trade intelligence MCP",
+  "name": "trade-intelligence-mcp",
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "The MCP should help trade finance officers verify international trade transactions by analyzing multiple trade documents, detecting discrepancies, checking compliance rules, identifying fraud indicato",
+  "description": "Trade finance compliance and fraud investigation tools exposed through an MCP server with optional widget integrations.",
   "scripts": {
     "dev": "nitrostack-cli dev",
     "build": "nitrostack-cli build",
@@ -16,8 +16,8 @@
   "keywords": [
     "nitrostack",
     "mcp",
-    "pizza",
-    "map",
+    "trade-finance",
+    "compliance",
     "widgets"
   ],
   "author": "Nullpointers",
