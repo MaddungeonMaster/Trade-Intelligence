@@ -38,7 +38,7 @@ npm run widget <command>
 
 ## Widget support
 
-The workspace also includes a small widget scaffold under src/widgets for optional UI integrations. The original pizza-template sample files have been removed in favor of the trade-finance-focused project layout.
+The workspace also includes a small widget scaffold under src/widgets for optional UI integrations. 
 
 ## Links
 

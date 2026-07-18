@@ -1,0 +1,9 @@
+{
+	"servers": {
+		"my-mcp-server-c0ae92c5": {
+			"url": "https://trade-intellig-nullpointers-amrita-university-amritapuri-campus.app.nitrocloud.ai/mcp",
+			"type": "http"
+		}
+	},
+	"inputs": []
+}
