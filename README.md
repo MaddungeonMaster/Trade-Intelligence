@@ -38,7 +38,7 @@ npm run widget <command>
 
 ## Widget support
 
-The workspace also includes a small widget scaffold under src/widgets for optional UI integrations. 
+The workspace also includes a small widget scaffold under src/widgets for optional UI integrations.
 
 ## Links
 
